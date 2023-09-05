@@ -1,0 +1,46 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.configuration-controller-bg-container {
+  background-color: #475569;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+.configuration-controller-main-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+}
+.checkbox-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 18px;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.checkbox-input {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.checkbox-label {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
